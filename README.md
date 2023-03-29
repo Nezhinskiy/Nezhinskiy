@@ -8,13 +8,13 @@
     <a href='https://github.com/mrhrifat?tab=repositories&sort=stargazers'>
         <img alt='total stars' title='Total stars on GitHub' src='https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/Nezhinskiy'/>
     </a>
-    <img src='https://vbr.wocr.tk/badge?page_id=Nezhinskiy&style=for-the-badge&logo=Github&color=16a085'>
     <a href='https://github.com/Nezhinskiy?tab=followers'>
         <img alt='followers' title='Follow Me on GitHub' src='https://custom-icon-badges.herokuapp.com/github/followers/Nezhinskiy?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white'/>
     </a>
     <a href='https://www.linkedin.com/in/mikhail-nezhinsky' target='_blank'>
         <img src='https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white'/>
     </a>
+    <img src='https://visitor-badge.glitch.me/badge?page_id=Nezhinskiy' width='115'>
 </p>
 
 <p align = 'center'>
