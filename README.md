@@ -1,8 +1,8 @@
-# Hi! I'm Mikhail. Python developer.
+# Hi! I'm Mikhail, Python developer. And I'm open to work :wink:
 
 ### I develop parsing scripts and WebApps for them, telegram bots, websites on Django, also I deploy projects on servers and set up CI/CD.
 
-#### Right now I'm working on improving my pet-project <a href="https://assetsloop.com/">Assets Loops</a>. This is a service for parsing cryptocurrency rates and scoring the most profitable combinations. (I can share the repository on request)
+#### Right now I'm working on improving my Open Source project <a href="https://github.com/Nezhinskiy/Assets-Loop">Assets Loops</a>. This is free web application (built with Python + JavaScript) designed to assist in trading across crypto exchanges, currency markets, and banks using an arbitrage strategy.
 
 <p align='center'>
     <a href='https://github.com/mrhrifat?tab=repositories&sort=stargazers'>
