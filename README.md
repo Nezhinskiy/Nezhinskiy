@@ -1,8 +1,8 @@
-# Hi! I'm Mikhail, Python developer. And I'm open to work :wink:
+# Hi! I'm Mikhail, Python Developer and Team Lead.
 
-### I develop parsing scripts and WebApps for them, telegram bots, websites on Django, also I deploy projects on servers and set up CI/CD.
+### I specialize in backend development, high-load systems, and integrating AI technologies. Currently leading innovative projects with a focus on microservices architecture and cloud administration.
 
-#### Right now I'm working on improving my Open Source project <a href="https://github.com/Nezhinskiy/Assets-Loop">Assets Loops</a>. This is free web application (built with Python + JavaScript) designed to assist in trading across crypto exchanges, currency markets, and banks using an arbitrage strategy.
+#### Open to collaboration and new opportunities where I can bring my expertise in project management, team leadership, and technical skills in Python, AsyncIO, and AI integration.
 
 <p align='center'>
     <a href='https://github.com/mrhrifat?tab=repositories&sort=stargazers'>
@@ -14,9 +14,9 @@
     <a href='https://www.linkedin.com/in/mikhail-nezhinsky' target='_blank'>
         <img src='https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white'/>
     </a>
-    <img src='https://visitor-badge.glitch.me/badge?page_id=Nezhinskiy' width='115'>
+    <img src="https://komarev.com/ghpvc/?username=Nezhinskiy&label=Profile%20views" alt="Nezhinskiy" width='150/>
 </p>
 
 <p align = 'center'>
-    <img src='https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Nezhinskiy&count_private=true&include_all_commits=true&show_icons=true&theme=transparent' width='450'/>
+    <img width="533" src="https://github-readme-stats-lake-omega.vercel.app/api?username=Nezhinskiy&show_icons=true&line" alt="Nezhinskiy's GitHub Stats"/>
 </p>
