@@ -1,22 +1,55 @@
-# Hi! I'm Mikhail, Python Developer and Team Lead.
+# Mikhail Nezhinsky
 
-### I specialize in backend development, high-load systems, and integrating AI technologies. Currently leading innovative projects with a focus on microservices architecture and cloud administration.
+**CTO at [Drama Buddy](https://dramabuddy.de). I build LLM agent systems that hold up in production,
+and the harnesses, evals and infrastructure that make fleets of coding agents trustworthy.**
 
-#### Open to collaboration and new opportunities where I can bring my expertise in project management, team leadership, and technical skills in Python, AsyncIO, and AI integration.
+Valencia, Spain · [LinkedIn](https://www.linkedin.com/in/mikhail-nezhinsky)
 
-<p align='center'>
-    <a href='https://github.com/mrhrifat?tab=repositories&sort=stargazers'>
-        <img alt='total stars' title='Total stars on GitHub' src='https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/Nezhinskiy'/>
-    </a>
-    <a href='https://github.com/Nezhinskiy?tab=followers'>
-        <img alt='followers' title='Follow Me on GitHub' src='https://custom-icon-badges.herokuapp.com/github/followers/Nezhinskiy?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white'/>
-    </a>
-    <a href='https://www.linkedin.com/in/mikhail-nezhinsky' target='_blank'>
-        <img src='https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white'/>
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=Nezhinskiy&label=Profile%20views" alt="Nezhinskiy" width='150/>
-</p>
+## What I'm building
 
-<p align = 'center'>
-    <img width="533" src="https://github-readme-stats-lake-omega.vercel.app/api?username=Nezhinskiy&show_icons=true&line" alt="Nezhinskiy's GitHub Stats"/>
-</p>
+**[Drama Buddy](https://dramabuddy.de)** · CTO
+A theatre guide for Berlin and Warsaw, curated by professional critics. Its AI guide only suggests
+performances our experts recommend, quotes the critic instead of writing its own review, and takes
+dates, prices and theatres from the catalogue, never from the model. Member of NVIDIA Inception and AWS Activate.
+
+**[stayfixed](https://github.com/stayfixed/stayfixed)** · Python · [PyPI](https://pypi.org/project/stayfixed/)
+A methodology harness for coding agents, shipped as a Claude Code plugin. Gates start advisory and
+turn on one by one as the repository passes them; gate policy is read from the base branch, so a PR
+cannot loosen it; fixed bugs keep a regression that is re-run. Its own suite: 6,900+ tests and 2,500+
+declared mutations checked in CI.
+
+**[ai-daybook](https://github.com/Nezhinskiy/ai-daybook-showcase)** · Python · Temporal · [live demo](https://ai-daybook.cc/app/demo.html)
+A production life-logging system run by eleven long-lived LLM agents on Temporal. The model gets
+exactly one decision per request, inside a boundary computed in advance by ordinary code. An LLM
+writes SQL against production behind an AST validator, a read-only role and row-level security.
+Releases are gated by evals.
+
+**[coreslot](https://github.com/core-slot/coreslot)** · Go · `brew install core-slot/tap/coreslot`
+One CPU budget for every test suite, build and agent on a machine. Parallel agent sessions each
+running `pytest -n` or `make -j` oversubscribe a laptop several times over; coreslot makes them queue
+for a share instead. No daemon: the budget is token files and `flock(2)`, so a killed client never
+leaks its share.
+
+**[local-ci-pool](https://github.com/Nezhinskiy/local-ci-pool)** · Go · Docker
+A shared self-hosted GitHub Actions runner pool: the Macs you already own run private-repo jobs in
+ephemeral containers while they are awake, and GitHub-hosted runners take over when none is.
+
+**[reask](https://github.com/Nezhinskiy/reask)** · agent skill · [PyPI](https://pypi.org/project/reask/)
+When your agent asks a question you can't answer, `/reask` makes it ask again as a self-contained
+briefing: context from zero, every option's trade-offs, and a recommendation.
+
+## How I work
+
+- **The model decides; code owns everything else.** Lifecycle, retries, timers, permissions and data
+  boundaries belong to deterministic code and durable workflows, not to prompts.
+- **Evals are a release gate, not a dashboard.** A flaky case is a defect to root-cause.
+- **Agents' claims are checked, not trusted.** "Tests pass" counts when the test runner says so.
+- **I ship by directing fleets of coding agents** under specs, reviewed plans and enforced checks,
+  and I build the tools that make that safe.
+
+## Before this
+
+Tech Lead at Athena AI (London; Startups 100 UK, 2024): LLM products from MVP to production.
+Earlier: founded and ran a B2B equipment-supply company and built its internal systems.
+
+<sub>Most of my production work lives in private repositories; the contribution graph counts it.</sub>
