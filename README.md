@@ -12,6 +12,15 @@ A theatre guide for Berlin and Warsaw, curated by professional critics. Its AI g
 performances our experts recommend, quotes the critic instead of writing its own review, and takes
 dates, prices and theatres from the catalogue, never from the model. Member of NVIDIA Inception and AWS Activate.
 
+**[LiveBridge](https://github.com/getLiveBridge/LiveBridge)** · Swift · TypeScript · [site](https://getlivebridge.com)
+Talk to an open Claude Code session by voice. GPT-Live is the front desk: it talks with you, asks
+what you mean and gives the real work to Claude Code. A macOS menu bar app plus a Claude Code plugin.
+
+**[genokeeper](https://github.com/genokeeper/genokeeper)** · Python · Docker
+A local analyser for your own whole genome sequencing data. It calls variants on your Mac, grades
+findings against ClinVar, gnomAD and ClinGen, and checks them again every month. A research tool,
+not medical advice.
+
 **[stayfixed](https://github.com/stayfixed/stayfixed)** · Python · [PyPI](https://pypi.org/project/stayfixed/)
 A methodology harness for coding agents, shipped as a Claude Code plugin. Gates start advisory and
 turn on one by one as the repository passes them; gate policy is read from the base branch, so a PR
@@ -25,10 +34,10 @@ writes SQL against production behind an AST validator, a read-only role and row-
 Releases are gated by evals.
 
 **[coreslot](https://github.com/core-slot/coreslot)** · Go · `brew install core-slot/tap/coreslot`
-One CPU budget for every test suite, build and agent on a machine. Parallel agent sessions each
-running `pytest -n` or `make -j` oversubscribe a laptop several times over; coreslot makes them queue
-for a share instead. No daemon: the budget is token files and `flock(2)`, so a killed client never
-leaks its share.
+A memory guard for the heavy commands that coding agents run in parallel. A command starts when the
+machine has the memory for it, and if the machine is really in danger, the newest commands stop and
+restart later. No daemon and no root: state is files and `flock(2)` locks, so a killed run never
+leaks its reservation.
 
 **[local-ci-pool](https://github.com/Nezhinskiy/local-ci-pool)** · Go · Docker
 A shared self-hosted GitHub Actions runner pool: the Macs you already own run private-repo jobs in
